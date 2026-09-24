@@ -1,3 +1,5 @@
+
+"""
 #Kilde: The Coffee Shop Price Calculator - www.101computing.net/the-coffee-shop-price-calculator
 print("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 print("+                               +")
@@ -18,19 +20,22 @@ print("----------------------------")
 
 
 #Koden spør deg om hvilken type kaffe du har lsyt å tar prisen av kaffen får deg.
-print("What type of coffee would you like? ")
 price = 0
-coffee = {
-   "Espresso": 2.50,
-   "Americano": 3.00,
-   "Latte": 2.50,
-   "Cappuccino": 3.00,
-   "Macchiato": 2.50,
-   "Macho": 3.50,
-   "Flat white": 2.50
-}
-
-
+coffee = input("What type of coffee would you like? ").title()
+if coffee=="Espresso":
+   price = price + 2.50
+elif coffee=="Americano":
+   price = price + 3.00
+elif coffee=="Latte":
+   price = price + 2.50
+elif coffee=="Cappuccino":
+   price = price + 3.00
+elif coffee=="Macchiato":
+   price = price + 2.50
+elif coffee=="Mocha": 
+   price = price + 3.50
+elif coffee=="Flat White":
+   price = price + 2.50
 
 print("----------------------------") 
 print("We have these following sizes")
@@ -65,3 +70,17 @@ elif eatin=="Take Away":
 #Complete the code here...
 print("----------------------------")
 print("Total Cost: £" + str(price))
+"""
+
+person = {
+    "navn": "Ola",
+    "alder": 25
+}
+
+# 1. Be brukeren skrive inn en nøkkel i terminalen
+nøkkel = input("Skriv inn hva du vil slå opp (f.eks. navn eller alder): ")
+
+# 2. Hent verdien fra dictionaryen og skriv den ut
+verdi = person.get(nøkkel, "Nøkkelen finnes ikke i ordboken.")
+
+print(verdi)
