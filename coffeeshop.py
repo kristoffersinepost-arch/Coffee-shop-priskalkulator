@@ -67,7 +67,7 @@ def hoverporgrammet():
 
    #Her velger du om du vil ta take away eller eat in
    vis_meny("Do you want take away or eat in", eatin_valg)
-   valgt_eatin = validering_ombruker("Chochoose one of them", eatin_valg)
+   valgt_eatin = validering_ombruker("Choose one of them ", eatin_valg)
    total_pris += eatin_valg[valgt_eatin]
 
    #skirver ut en oppsumering av bestillingen din
