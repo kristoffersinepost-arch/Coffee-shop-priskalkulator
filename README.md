@@ -7,4 +7,14 @@ Det dette programmet er en prissimulator hvor du lager en priskalkulator fpr en 
 
 1. Du kjøre det med å trykke på play knappen oppi høyre hjørne.
 2. Nå du har trykke på knappen kommer terminalen opp å viser deg alternativ som du skal velg.
+    -for eksempel kommer dette opp når du begynner
+    We serve these following coffee
+     - Espresso
+     - Americano
+     - Latte
+     - Cappuccino
+     - Macchiato
+     - Mocha
+     - Flat White
+
 3. Når du har valgt alle alternativene får du til slutt en total sum hvor du ser hvor mye penger du brukte.
